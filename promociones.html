@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones — Sofia Local</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barra negra -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="center">3 y 6 cuotas sin interés todos los días</div>
+    </div>
+  </div>
+
+  <!-- Barra Menu -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOoomNHhzl_o69YfRl26Hv-9kR243QI1bfdQ&s" alt="Logo Sofia">
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="indumentaria.html">INDUMENTARIA</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+          <li><a href="stores.html">STORES</a></li>
+          <li><a href="nosotros.html">NOSOTROS</a></li>
+          <li><a href="promociones.html">PROMOCIONES</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Promociones -->
+  <main>
+    <section class="promo">
+      <h2>Promociones vigentes</h2>
+      <p>Seleccioná una promoción y completá los datos para ver tu ahorro.</p>
+
+      <button onclick="promoDosPorUno()">Llevá 2 productos y obtené 50% en el segundo</button>
+      <button onclick="promoTresPorDos()">3x2 en productos seleccionados</button>
+      <button onclick="promoDiezPorciento()">10% de descuento por compras superiores a $30.000</button>
+
+      <div id="resultado" class="resultado"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© 2025 Sofia — Todos los derechos reservados</p>
+      </div>
+      <div class="footer-right">
+        <p>Contacto · Redes · Política de privacidad</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="promociones.js"></script>
+</body>
+</html>
