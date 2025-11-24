@@ -691,3 +691,30 @@ nav ul li a:hover {
 }
 
 
+/* -------- Solución problema menú en movil -------- */
+
+@media (max-width: 480px) {
+
+  .header-inner {
+    flex-direction: column;
+    gap: 4px; 
+    padding: 8px 0; 
+  }
+
+  .logo img {
+    max-width: 100px; 
+    margin: 0;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 6px; 
+    margin: 8px 0 12px;
+  }
+
+  .main-nav a {
+    font-size: 14px; 
+    padding: 4px 0;
+  }
+}
+
